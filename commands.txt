@@ -1,8 +1,0 @@
-login
-scan
-netstat
-ping
-tracert
-ipconfig
-shutdown
-clear
