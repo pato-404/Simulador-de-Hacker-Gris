@@ -1,0 +1,3 @@
+usuario1: contrasena123
+admin: 1234admin
+hacker_gris: pasword456
