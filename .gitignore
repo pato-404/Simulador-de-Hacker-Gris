@@ -1,0 +1,38 @@
+# Ignorar archivos de configuración local
+*.log
+*.swp
+*.bak
+*.tmp
+
+# Ignorar carpetas del sistema
+.DS_Store           # macOS
+Thumbs.db           # Windows
+
+# Ignorar dependencias si estás usando Node.js o similares
+node_modules/
+
+# Ignorar carpetas específicas de IDEs y editores de código
+.vscode/            # Visual Studio Code
+.idea/              # JetBrains IDEs (IntelliJ, WebStorm, etc.)
+
+# Ignorar archivos de compilación (si es que se usa algún tipo de compilación)
+*.class             # Java
+*.jar               # Java
+*.pyc               # Python
+*.pyo               # Python
+
+# Ignorar archivos de backup
+*~                  # Archivos temporales generados por algunos editores
+
+# Ignorar archivos de configuración específicos de GitHub Actions o CI
+*.yml
+*.yaml
+
+# Ignorar los archivos de las carpetas que no necesitamos
+/assets/sounds/*
+/assets/images/*
+/txt/*.txt
+
+# Ignorar cualquier archivo personal o sensible
+*.env               # Archivos con variables de entorno
+*.config            # Archivos de configuración personal
